@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+<meta charset = "utf-8"/>
+<title> Фотограф в Иркутске Анна Кривошеина. Снимаю Love Story, портретные фотосессии </title>
+<link href ="./main_style.css" rel = "stylesheet" type="text/css"/>
+<script type="text/javascript" src="./JS.js"></script>
+</head>
+<body onload="CallChanges('slider'); Enable('themes');">
+        <header class="outofnav">
+            <a class="head_name" href="./index.html">
+                <ul>
+                    <li>АННА</li>
+                    <li>КРИВОШЕИНА</li>
+                    <li>фотограф</li>
+                </ul>
+            </a>
+            <a class="button_menu" href="./menu_main.html"><img class="menu_img" src="./icons/menu.png" ></img></a>
+        </header>
+        <nav>
+            <header class="innav">
+                <a class="head_name" href="./main.html">
+                    <p>АННА</p>
+                    <p>КРИВОШЕИНА</p>
+                    <p>фотограф</p>
+                </a>
+            </header>
+            <a class="menu_ref active" href="./index.html">ГЛАВНАЯ</a>
+            <p class="menu_ref to_chpok" onclick="chpok('themes')">ПОРТФОЛИО</p>
+            <div id="themes">
+                <a class="menu_ref port_items" href="./pregnant.html">Съемка в ожидании</a>
+                <a class="menu_ref port_items" href="#">Женский портрет</a>
+                <a class="menu_ref port_items" href="#">Love story</a>
+            </div>
+            <a class="menu_ref"href="#clients">ОБО МНЕ</a>
+            <a class="menu_ref" href="#contact">ЦЕНЫ</a>
+            <a class="menu_ref" href="#contact">ПОЛЕЗНО</a>
+            <a class="menu_ref" href="#contact">КОНТАКТЫ</a>
+        </nav>    
+        <main>
+            <div class = "slider" id="slider" >
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-01ed6ffbe89bfd4ae17b226b34c187ce.jfif)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-29114b03358a9fd13e33d7e92aeba82e.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-37703fcb7090ae7ac68218ab1be76737.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-4f66225d962d9a441cb9b19b16e8869a.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-5ffdf33ac08c22c41a857135847f691d.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-70f2de0ba1e335e8bb61dd8b0ce6bf68.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-7db17c4d3fda71ad39f13c4c5454b6c0.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-8cc04835533a4a024ff3328f2a3ec74f.jpg)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-bc6f209a65b4daef1c602a2262b78652.jfif)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-ca91647b246d0432106da1249260087e.jfif)"></div>
+                <div class="slider_slide slider_slide_inactive" style="background-image: url(./for_slider/2000-anna_krivosheina-d49d02fd9161512cfdd8503b91836fc1.jpg)"></div>
+                <div class="slider_slide slider_slide_active" style="background-image: url(./for_slider/2000-anna_krivosheina-fecdcec7db323a97fd6959ba6347411c.jfif)"></div>
+                <span class="slider_button slider_button_left" onclick="slideChange('slider','left');">&lt</span>
+                <span class="slider_button slider_button_right" onclick="slideChange('slider','right');">&gt</span>
+            </div>
+            <article>
+                <p class="quote">«Фотография - это способ чувствовать, прикасаться, любить...»</p>
+                <p class="author">Аарон Суссман</p>
+            </article>
+            <article>
+                <p class="follow">Следите за моими работами в Instagram</p>
+                <a class="inst" href="https://www.instagram.com/ankrivosheina/">@ankrivosheina</a>
+            </article>
+            <div class="end"></div>
+            <footer>
+                <article class="footer_name">
+                    <p class="fn">АННА КРИВОШЕИНА</p>
+                    <p class="fj">фотограф</p>
+                </article>
+                <div class="footer_left">
+                    <p class="fp">СОЦ. СЕТИ:</p>
+                    <a class="a_soc" href="https://www.instagram.com/ankrivosheina/"><img class="soc" src="./icons/pngegg.png" ></img></a>
+                    <a class="a_soc" href="https://vk.com/ankrivosheinaphoto"><img class="soc" src="./icons/207-2078922_terms-of-service-vk-logo-png-white.png" ></img></a>
+                </div>
+                <div class="footer_right">
+                    <p class="fp">ТЕЛЕФОН:</p>
+                    <p class="tel">+79246388990</p>
+                </div>
+                <p class="owner">© 2020 Анна Кривошеина. Портретный фотограф в Иркутске</p>
+            </footer>
+        </main>
+    </body>
+</html>

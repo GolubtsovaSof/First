@@ -1,0 +1,8 @@
+.left2::placeholder {
+    color: red;  
+    border-color: red;
+}
+.left1::placeholder {
+    color: white;  
+    border-color: white;
+}
